@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(gurobi VERSION 6.0.5 LANGUAGES C)
+project(gurobi VERSION 7.0.1 LANGUAGES C)
 
 if(CMAKE_VERSION VERSION_LESS 3.7)
   set(CMAKE_MODULE_PATH
@@ -62,7 +62,7 @@ if(GUROBI_PLATFORM STREQUAL mac64)
   )
 elseif(GUROBI_PLATFORM STREQUAL linux64)
   set(GUROBI_EXPECTED_SHA256
-    171e899350353fa012a5c38f8acd3c0ac0482e1e16f973d944535fd3abd5053e
+    2af561c9c4511374728cbf8b4dce901845dc9c6660c299a1ecde7a5e84d9f472
   )
 else()
   message(FATAL_ERROR "Gurobi is NOT available for this platform")
