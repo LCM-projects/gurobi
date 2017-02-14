@@ -62,7 +62,7 @@ if(GUROBI_PLATFORM STREQUAL mac64)
   )
 elseif(GUROBI_PLATFORM STREQUAL linux64)
   set(GUROBI_EXPECTED_SHA256
-    171e899350353fa012a5c38f8acd3c0ac0482e1e16f973d944535fd3abd5053e
+    b6da86ce99b91ab191f439a6e7fb0d222029f0e92adedb10b7764b661991edd1
   )
 else()
   message(FATAL_ERROR "Gurobi is NOT available for this platform")
