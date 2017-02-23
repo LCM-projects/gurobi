@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(gurobi VERSION 6.0.5 LANGUAGES C)
+project(gurobi VERSION 7.0.2 LANGUAGES C)
 
 if(CMAKE_VERSION VERSION_LESS 3.7)
   set(CMAKE_MODULE_PATH
